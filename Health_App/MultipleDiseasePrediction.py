@@ -7,8 +7,8 @@ import numpy as np
 
 # trained models to predict
 
-diab_svm_model = pickle.load(open("trained_SVM_model_diabetes.sav", "rb"))
-heart_LR_model=pickle.load(open("trained_LR_model_for_heart.sav", "rb"))
+diab_svm_model = pickle.load(open(r'.\Health_App\trained_SVM_model_diabetes.sav', 'rb'))
+heart_LR_model=pickle.load(open(r'.\Health_App\trained_LR_model_for_heart.sav', 'rb'))
 
 
 
